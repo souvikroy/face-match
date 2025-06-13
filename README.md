@@ -6,9 +6,9 @@ This project provides a FastAPI service that attempts to match psychological tra
 Inferring psychological traits solely from facial appearance is not scientifically validated and can reinforce harmful stereotypes. The system presented here is for experimental and educational purposes only. Output should be treated with extreme caution.
 
 ## Setup
-1. Install dependencies:
+1. Install dependencies (you can run the provided helper script):
    ```bash
-   pip install -r requirements.txt
+   ./setup.sh
    ```
 2. Set your OpenAI API key:
    ```bash
