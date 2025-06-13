@@ -4,6 +4,7 @@ from typing import Dict, List
 
 from langchain.chat_models import ChatOpenAI
 from langchain.schema import HumanMessage
+import json
 
 from ..config import settings
 
@@ -23,9 +24,14 @@ class TraitMatcher:
                 "Evaluate plausibility cautiously. Respond in JSON with fields 'trait', 'plausible', and 'reason'."
             )
             msg = self.llm([HumanMessage(content=prompt)])
-            results.append({
-                "trait": trait["trait"],
-                "similarity": trait.get("similarity", 0),
-                "llm_response": msg.content,
-            })
+            try:
+                parsed = json.loads(msg.content)
+            except json.JSONDecodeError:
+                parsed = {
+                    "trait": trait["trait"],
+                    "plausible": False,
+                    "reason": "LLM response could not be parsed"
+                }
+            parsed["similarity"] = trait.get("similarity", 0)
+            results.append(parsed)
         return results

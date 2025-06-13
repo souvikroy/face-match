@@ -31,14 +31,19 @@ verifier = Verifier()
 
 DISCLAIMER = (
     "This system is experimental. Inferring psychological traits from facial appearance is highly speculative,"
-    " potentially biased, and should not be used for important decisions."
+    " potentially biased, and should not be used for important decisions. Results may be inaccurate or unfair."
 )
 
 
 @app.post("/analyze_face_traits")
 async def analyze_face_traits(file: UploadFile = File(...)):
+    """Analyze uploaded face images and return possible traits with a disclaimer."""
     content = await file.read()
-    image, boxes = detect_faces(content)
+    try:
+        image, boxes = detect_faces(content)
+    except Exception as e:
+        logger.error("Face detection failed: %s", e)
+        raise HTTPException(status_code=500, detail="Face detection failed")
     if not boxes:
         raise HTTPException(status_code=400, detail="No face detected")
     faces = []

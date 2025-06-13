@@ -1,6 +1,6 @@
 # Face Trait Matcher (Experimental)
 
-This project provides a FastAPI service that attempts to match psychological traits from a provided `traits.json` file to uploaded face images. **This approach is highly speculative and lacks scientific support.** Results may be biased and should **not** be used for high‑stakes or real‑world decisions.
+This project provides a FastAPI service that attempts to match psychological traits from a provided `traits.json` file to uploaded face images. **This approach is highly speculative and lacks scientific support.** Results may be biased and should **not** be used for high‑stakes or real‑world decisions. Every API response includes a disclaimer reiterating these limitations.
 
 ## Ethical Disclaimer
 Inferring psychological traits solely from facial appearance is not scientifically validated and can reinforce harmful stereotypes. The system presented here is for experimental and educational purposes only. Output should be treated with extreme caution.
@@ -17,6 +17,10 @@ Inferring psychological traits solely from facial appearance is not scientifical
 3. Run the server:
    ```bash
    uvicorn app.api.main:app --reload
+   ```
+4. Run the tests (requires the dependencies above):
+   ```bash
+   pytest -q
    ```
 
 ## Usage
