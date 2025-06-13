@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+opencv-python
+face_recognition
+numpy
+pydantic
+python-multipart
+langchain
+openai
