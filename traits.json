@@ -1,0 +1,602 @@
+[
+  {
+    "trait": "Neuroticism (Emotional Stability)",
+    "domain": "Emotional",
+    "description": "Tendency toward negative emotions and mood swings",
+    "gender_tendency": "women on average score higher in neuroticism across many cultures ."
+  },
+  {
+    "trait": "Emotional Expressivity",
+    "domain": "Emotional",
+    "description": "Degree of outward emotional display",
+    "gender_tendency": "women generally exhibit greater expressivity (e.g., crying frequency) ."
+  },
+  {
+    "trait": "Empathy",
+    "domain": "Emotional",
+    "description": "Ability to understand and share others’ feelings",
+    "gender_tendency": "women often score higher on measures of empathy and emotion recognition ."
+  },
+  {
+    "trait": "Emotional Contagion Sensitivity",
+    "domain": "Emotional",
+    "description": "Tendency to “catch” others’ emotions",
+    "gender_tendency": "research indicates higher responsiveness in women on average ."
+  },
+  {
+    "trait": "Anxiety-Proneness",
+    "domain": "Emotional",
+    "description": "Inclination toward anxious feelings",
+    "gender_tendency": "more prevalent among women in internalizing disorders research ."
+  },
+  {
+    "trait": "Depressive Tendency",
+    "domain": "Emotional",
+    "description": "Propensity to experience depressive moods",
+    "gender_tendency": "women have higher prevalence of depression-related traits ."
+  },
+  {
+    "trait": "Anger Expression",
+    "domain": "Emotional",
+    "description": "Patterns of expressing anger",
+    "gender_tendency": "men may show more overt anger, women may express indirectly, though overall frequency of experienced anger may be similar ."
+  },
+  {
+    "trait": "Fearfulness",
+    "domain": "Emotional",
+    "description": "Tendency to experience fear",
+    "gender_tendency": "women often report greater fear responses in various contexts ."
+  },
+  {
+    "trait": "Emotional Intelligence (EI)",
+    "domain": "Emotional",
+    "description": "Ability to perceive, use, understand, and manage emotions",
+    "gender_tendency": "women tend to have slight advantage in certain EI facets like emotion recognition ."
+  },
+  {
+    "trait": "Tender-Mindedness/Nurturance",
+    "domain": "Emotional",
+    "description": "Inclination toward kindness and care",
+    "gender_tendency": "women typically score higher on warmth/tender-mindedness facets ."
+  },
+  {
+    "trait": "Sensitivity to Social Rejection",
+    "domain": "Emotional",
+    "description": "Degree to which social exclusion affects mood",
+    "gender_tendency": "some evidence suggests women may report greater sensitivity ."
+  },
+  {
+    "trait": "Emotional Regulation Style",
+    "domain": "Emotional",
+    "description": "Strategies to manage emotions",
+    "gender_tendency": "gender differences are context-specific, but women may use more rumination, men more suppression on average ."
+  },
+  {
+    "trait": "Guilt-Proneness",
+    "domain": "Emotional",
+    "description": "Tendency to feel guilt",
+    "gender_tendency": "women often report higher guilt proneness in social contexts ."
+  },
+  {
+    "trait": "Shame-Proneness",
+    "domain": "Emotional",
+    "description": "Inclination toward shame",
+    "gender_tendency": "somewhat higher in women in certain studies, though context matters ."
+  },
+  {
+    "trait": "Loneliness Sensitivity",
+    "domain": "Emotional",
+    "description": "Feeling of social isolation",
+    "gender_tendency": "mixed evidence, but some studies show women report loneliness more, partly due to socialization expectations ."
+  },
+  {
+    "trait": "Emotional Resilience",
+    "domain": "Emotional",
+    "description": "Ability to recover from emotional setbacks",
+    "gender_tendency": "small differences vary by culture and context, with unclear consistent gender trend ."
+  },
+  {
+    "trait": "Emotional Rumination",
+    "domain": "Emotional",
+    "description": "Repetitive focus on negative feelings",
+    "gender_tendency": "women on average ruminate more, linked to higher depression/anxiety ."
+  },
+  {
+    "trait": "Empathic Concern vs. Personal Distress",
+    "domain": "Emotional",
+    "description": "Women often show higher empathic concern, though also higher personal distress in response to others’ suffering .",
+    "gender_tendency": ""
+  },
+  {
+    "trait": "Emotional Reactivity",
+    "domain": "Emotional",
+    "description": "Intensity of reaction to emotional stimuli",
+    "gender_tendency": "women often report more intense affective experiences ."
+  },
+  {
+    "trait": "Attachment Style Tendencies",
+    "domain": "Emotional",
+    "description": "While individual variation dominates, some surveys find women slightly more prone to anxious attachment, men to avoidant attachment on average .",
+    "gender_tendency": ""
+  },
+  {
+    "trait": "Openness to Experience (Big Five)",
+    "domain": "Cognitive",
+    "description": "Interest in novel experiences",
+    "gender_tendency": "mixed gender findings on facets: women higher on openness to feelings, men higher on openness to ideas ."
+  },
+  {
+    "trait": "Analytical Thinking",
+    "domain": "Cognitive",
+    "description": "Preference for systematic problem-solving",
+    "gender_tendency": "small or no consistent gender difference in general analytical ability tests when controlling for education ."
+  },
+  {
+    "trait": "Verbal Ability",
+    "domain": "Cognitive",
+    "description": "Skill in language tasks",
+    "gender_tendency": "women often have slight advantage in verbal fluency and reading comprehension on average ."
+  },
+  {
+    "trait": "Spatial Ability",
+    "domain": "Cognitive",
+    "description": "Skill in mental rotation and spatial reasoning",
+    "gender_tendency": "men typically score higher on average in spatial tasks ."
+  },
+  {
+    "trait": "Mathematical Reasoning",
+    "domain": "Cognitive",
+    "description": "Aptitude for math problem-solving",
+    "gender_tendency": "overall small gender gap, with context and culture affecting differences; meta-analyses show narrowing gaps over time ."
+  },
+  {
+    "trait": "Risk Perception",
+    "domain": "Cognitive",
+    "description": "How risky situations are evaluated",
+    "gender_tendency": "women often perceive higher risk levels than men ."
+  },
+  {
+    "trait": "Cognitive Empathy (Theory of Mind)",
+    "domain": "Cognitive",
+    "description": "Ability to infer others’ mental states",
+    "gender_tendency": "women tend to perform slightly better on some ToM tasks ."
+  },
+  {
+    "trait": "Systemizing vs. Empathizing",
+    "domain": "Cognitive",
+    "description": "Tendency to analyze systems vs. empathic processing",
+    "gender_tendency": "men often higher systemizing, women higher empathizing on average, though overlap is large ."
+  },
+  {
+    "trait": "Memory (Verbal vs. Spatial)",
+    "domain": "Cognitive",
+    "description": "Women often excel in verbal memory tasks",
+    "gender_tendency": "men sometimes excel in spatial memory tasks ."
+  },
+  {
+    "trait": "Attention to Detail",
+    "domain": "Cognitive",
+    "description": "Focus on fine-grained information",
+    "gender_tendency": "some studies find women more attentive to detail in social contexts, while men may focus on detail in spatial contexts ."
+  },
+  {
+    "trait": "Multitasking Ability",
+    "domain": "Cognitive",
+    "description": "Ability to juggle tasks",
+    "gender_tendency": "popular belief favors women, but empirical evidence is mixed with no large consistent gap ."
+  },
+  {
+    "trait": "Creativity",
+    "domain": "Cognitive",
+    "description": "Divergent thinking and novel idea generation",
+    "gender_tendency": "little consistent gender difference when controlling for domain and background ."
+  },
+  {
+    "trait": "Cognitive Flexibility",
+    "domain": "Cognitive",
+    "description": "Ability to switch perspectives",
+    "gender_tendency": "evidence is mixed and context-dependent with no robust gender difference ."
+  },
+  {
+    "trait": "Decision-Making Style",
+    "domain": "Cognitive",
+    "description": "Analytical vs. intuitive",
+    "gender_tendency": "some evidence women rely more on intuitive/social cues, men more on analytical logic, though this is context-specific ."
+  },
+  {
+    "trait": "Metacognitive Awareness",
+    "domain": "Cognitive",
+    "description": "Insight into one’s own thinking",
+    "gender_tendency": "few robust gender findings, with variation by domain ."
+  },
+  {
+    "trait": "Risk Taking (Cognitive Component)",
+    "domain": "Cognitive",
+    "description": "Willingness to choose uncertain options",
+    "gender_tendency": "men generally more risk-taking in financial and recreational domains ."
+  },
+  {
+    "trait": "Delay of Gratification",
+    "domain": "Cognitive",
+    "description": "Ability to wait for larger rewards",
+    "gender_tendency": "women often exhibit greater delay tolerance on average ."
+  },
+  {
+    "trait": "Optimism/Pessimism",
+    "domain": "Cognitive",
+    "description": "Tendency toward positive vs. negative expectations",
+    "gender_tendency": "mixed findings, but some studies suggest women report slightly lower optimism in financial domains ."
+  },
+  {
+    "trait": "Need for Cognition",
+    "domain": "Cognitive",
+    "description": "Enjoyment of effortful thinking",
+    "gender_tendency": "small or no consistent gender difference, though context matters ."
+  },
+  {
+    "trait": "Cognitive Complexity",
+    "domain": "Cognitive",
+    "description": "Depth and nuance in thinking",
+    "gender_tendency": "largely individual, with no strong average gender gap when controlling for education and context ."
+  },
+  {
+    "trait": "Agreeableness (Big Five)",
+    "domain": "Social",
+    "description": "Tendency toward cooperation and compassion",
+    "gender_tendency": "women on average score higher in agreeableness ."
+  },
+  {
+    "trait": "Assertiveness",
+    "domain": "Social",
+    "description": "Confidence in expressing opinions",
+    "gender_tendency": "men often score higher in assertiveness facets of extraversion ."
+  },
+  {
+    "trait": "Altruism",
+    "domain": "Social",
+    "description": "Willingness to help others",
+    "gender_tendency": "women tend to report higher altruistic behaviors in social contexts ."
+  },
+  {
+    "trait": "Social Sensitivity",
+    "domain": "Social",
+    "description": "Perceptiveness to social cues",
+    "gender_tendency": "women often excel in reading nonverbal signals ."
+  },
+  {
+    "trait": "Communication Style",
+    "domain": "Social",
+    "description": "Direct vs. indirect communication",
+    "gender_tendency": "men may prefer more direct styles, women more collaborative/indirect on average ."
+  },
+  {
+    "trait": "Leadership Style",
+    "domain": "Social",
+    "description": "Tendency toward authoritative vs. participative leadership",
+    "gender_tendency": "women often favor transformational/participative approaches, men more transactional/assertive, on average ."
+  },
+  {
+    "trait": "Cooperation vs. Competition",
+    "domain": "Social",
+    "description": "Preference for collaborative vs. competitive interactions",
+    "gender_tendency": "women may lean more toward cooperation, men more toward competition on average ."
+  },
+  {
+    "trait": "Social Risk Taking",
+    "domain": "Social",
+    "description": "Willingness to engage in socially uncertain actions",
+    "gender_tendency": "studies show mixed gender patterns in social risk, sometimes women more averse ."
+  },
+  {
+    "trait": "Trust Propensity",
+    "domain": "Social",
+    "description": "Tendency to trust others",
+    "gender_tendency": "research shows small or context-dependent gender differences, with women sometimes more trusting in social contexts ."
+  },
+  {
+    "trait": "Conflict Resolution Style",
+    "domain": "Social",
+    "description": "Preference for confrontation vs. avoidance",
+    "gender_tendency": "women often prefer more collaborative resolution, men may choose direct confrontation or avoidance depending on context ."
+  },
+  {
+    "trait": "Prosocial Behavior",
+    "domain": "Social",
+    "description": "Actions intended to benefit others",
+    "gender_tendency": "women often report higher frequencies of prosocial acts ."
+  },
+  {
+    "trait": "Social Support Seeking",
+    "domain": "Social",
+    "description": "Likelihood to seek help",
+    "gender_tendency": "women more likely to seek emotional support, men less so on average ."
+  },
+  {
+    "trait": "Boundary Setting",
+    "domain": "Social",
+    "description": "Ability to assert personal limits",
+    "gender_tendency": "some evidence women may have more difficulty asserting boundaries in certain contexts, though data are mixed ."
+  },
+  {
+    "trait": "Empathic Communication",
+    "domain": "Social",
+    "description": "Use of empathy in dialogue",
+    "gender_tendency": "women often employ empathic communication more readily ."
+  },
+  {
+    "trait": "Social Conformity",
+    "domain": "Social",
+    "description": "Tendency to adhere to group norms",
+    "gender_tendency": "mixed evidence, context dependent; some studies show women conform more in certain settings ."
+  },
+  {
+    "trait": "Peer Influence Susceptibility",
+    "domain": "Social",
+    "description": "Degree to which peers sway behavior",
+    "gender_tendency": "small or context-dependent differences, with variation by age and culture ."
+  },
+  {
+    "trait": "Attachment-Related Trust",
+    "domain": "Social",
+    "description": "Foundation of trust based on early attachments",
+    "gender_tendency": "individual variation dominates, with minimal consistent gender gap ."
+  },
+  {
+    "trait": "Social Anxiety",
+    "domain": "Social",
+    "description": "Fear of social situations",
+    "gender_tendency": "women often report higher social anxiety prevalence ."
+  },
+  {
+    "trait": "Networking Orientation",
+    "domain": "Social",
+    "description": "Inclination to build professional networks",
+    "gender_tendency": "mixed findings, with some evidence women value deeper connections, men broader networks, though cultural factors play a large role ."
+  },
+  {
+    "trait": "Social Influence Tactics",
+    "domain": "Social",
+    "description": "Use of persuasion strategies",
+    "gender_tendency": "men may use more direct tactics, women more relational tactics on average ."
+  },
+  {
+    "trait": "Achievement Motivation",
+    "domain": "Motivational",
+    "description": "Drive to achieve success",
+    "gender_tendency": "minimal consistent gender difference when controlling for opportunity and context ."
+  },
+  {
+    "trait": "Ambition",
+    "domain": "Motivational",
+    "description": "Desire for advancement",
+    "gender_tendency": "individual variation is large; some surveys find men report higher ambition in career contexts, but context and culture heavily moderate ."
+  },
+  {
+    "trait": "Competitiveness",
+    "domain": "Motivational",
+    "description": "Desire to outperform others",
+    "gender_tendency": "men often score higher in competitive orientation on average ."
+  },
+  {
+    "trait": "Persistence (Grit)",
+    "domain": "Motivational",
+    "description": "Sustained effort toward long-term goals",
+    "gender_tendency": "little consistent gender difference when controlling for background ."
+  },
+  {
+    "trait": "Risk-Taking Motivation",
+    "domain": "Motivational",
+    "description": "Inclination to pursue uncertain rewards",
+    "gender_tendency": "men generally more motivated for risky endeavors ."
+  },
+  {
+    "trait": "Exploratory Drive",
+    "domain": "Motivational",
+    "description": "Desire to explore novel environments or ideas",
+    "gender_tendency": "tied to openness facets; mixed gender trends depending on domain ."
+  },
+  {
+    "trait": "Curiosity",
+    "domain": "Motivational",
+    "description": "Interest in learning new information",
+    "gender_tendency": "small or no consistent gender gap, though some evidence women are more curious about social/emotional topics ."
+  },
+  {
+    "trait": "Intrinsic vs. Extrinsic Motivation",
+    "domain": "Motivational",
+    "description": "Preference for internal satisfaction vs. external rewards",
+    "gender_tendency": "context-specific, with no robust gender difference ."
+  },
+  {
+    "trait": "Goal Orientation (Mastery vs. Performance)",
+    "domain": "Motivational",
+    "description": "Preference to master skills vs. demonstrate competence",
+    "gender_tendency": "mixed evidence with context and socialization influences; no clear universal gender gap ."
+  },
+  {
+    "trait": "Future Orientation",
+    "domain": "Motivational",
+    "description": "Tendency to plan ahead",
+    "gender_tendency": "women often exhibit stronger future planning in some life domains (e.g., health, saving) ."
+  },
+  {
+    "trait": "Present Hedonistic Orientation",
+    "domain": "Motivational",
+    "description": "Focus on immediate pleasure",
+    "gender_tendency": "men often higher on present-oriented risk-taking behaviors ."
+  },
+  {
+    "trait": "Delay Discounting",
+    "domain": "Motivational",
+    "description": "Preference for smaller-sooner vs. larger-later rewards",
+    "gender_tendency": "men tend to discount future rewards more steeply ."
+  },
+  {
+    "trait": "Self-Efficacy",
+    "domain": "Motivational",
+    "description": "Belief in one’s ability to execute tasks",
+    "gender_tendency": "domain-specific differences exist, but overall no large universal gender gap when opportunities and social expectations are equal ."
+  },
+  {
+    "trait": "Self-Esteem",
+    "domain": "Motivational",
+    "description": "Overall self-worth",
+    "gender_tendency": "men often report slightly higher self-esteem in adolescence and adulthood, though context and culture moderate ."
+  },
+  {
+    "trait": "Locus of Control",
+    "domain": "Motivational",
+    "description": "Belief in control over outcomes",
+    "gender_tendency": "mixed findings, with no robust gender difference when controlling for socioeconomic factors ."
+  },
+  {
+    "trait": "Optimism Bias",
+    "domain": "Motivational",
+    "description": "Expectation of positive outcomes",
+    "gender_tendency": "men sometimes show higher optimism bias in risk-taking contexts, women more cautious ."
+  },
+  {
+    "trait": "Need for Approval",
+    "domain": "Motivational",
+    "description": "Desire for social validation",
+    "gender_tendency": "women may report higher need for social approval in certain cultural contexts ."
+  },
+  {
+    "trait": "Achievement Striving",
+    "domain": "Motivational",
+    "description": "Ambition toward specific accomplishments",
+    "gender_tendency": "little consistent gender gap after accounting for socialization ."
+  },
+  {
+    "trait": "Regulatory Focus (Promotion vs. Prevention)",
+    "domain": "Motivational",
+    "description": "Tendency toward seeking gains (promotion) vs. avoiding losses (prevention)",
+    "gender_tendency": "women sometimes lean more prevention-focused, men promotion-focused in financial decisions ."
+  },
+  {
+    "trait": "Motivational Resilience",
+    "domain": "Motivational",
+    "description": "Capacity to maintain motivation after setbacks",
+    "gender_tendency": "individual variability is high; no clear average gender difference ."
+  },
+  {
+    "trait": "Aggression",
+    "domain": "Behavioral",
+    "description": "Propensity to engage in aggressive behavior",
+    "gender_tendency": "men on average more overtly aggressive, women may show indirect aggression ."
+  },
+  {
+    "trait": "Sensation Seeking",
+    "domain": "Behavioral",
+    "description": "Desire for varied, novel, and intense experiences",
+    "gender_tendency": "men score higher across cultures ."
+  },
+  {
+    "trait": "Impulsivity",
+    "domain": "Behavioral",
+    "description": "Tendency to act without forethought",
+    "gender_tendency": "men often higher impulsivity, though domain-specific patterns exist ."
+  },
+  {
+    "trait": "Substance Use Propensity",
+    "domain": "Behavioral",
+    "description": "Likelihood to engage in substance use",
+    "gender_tendency": "men have higher rates of externalizing behaviors like substance use disorders ."
+  },
+  {
+    "trait": "Driving Risk Behavior",
+    "domain": "Behavioral",
+    "description": "Inclination toward risky driving",
+    "gender_tendency": "men more likely to engage in dangerous driving behaviors ."
+  },
+  {
+    "trait": "Technology Use Patterns",
+    "domain": "Behavioral",
+    "description": "Preferences for types of tech engagement",
+    "gender_tendency": "mixed findings, with younger women sometimes more social-media oriented, men more gaming/tech gadget oriented on average ."
+  },
+  {
+    "trait": "Workaholism",
+    "domain": "Behavioral",
+    "description": "Tendency to work excessively",
+    "gender_tendency": "little consistent gender difference when controlling for job demands and culture ."
+  },
+  {
+    "trait": "Self-Control",
+    "domain": "Behavioral",
+    "description": "Ability to inhibit impulses",
+    "gender_tendency": "women often report slightly higher self-control in delaying gratification tasks ."
+  },
+  {
+    "trait": "Health-Protective Behaviors",
+    "domain": "Behavioral",
+    "description": "Engagement in preventive health actions",
+    "gender_tendency": "women more likely to seek medical care and adhere to healthy behaviors ."
+  },
+  {
+    "trait": "Risky Sexual Behavior",
+    "domain": "Behavioral",
+    "description": "Propensity for unprotected or casual sex",
+    "gender_tendency": "men on average report higher frequency of risky sexual behaviors ."
+  },
+  {
+    "trait": "Parental Investment Tendencies",
+    "domain": "Behavioral",
+    "description": "Inclination toward childcare responsibilities",
+    "gender_tendency": "women often take on more caregiving roles due to both social and biological factors ."
+  },
+  {
+    "trait": "Social Media Posting Frequency",
+    "domain": "Behavioral",
+    "description": "Usage patterns",
+    "gender_tendency": "women often post more personal content and seek social feedback, men post more informational or status-oriented updates on average ."
+  },
+  {
+    "trait": "Leadership Emergence Behavior",
+    "domain": "Behavioral",
+    "description": "Likelihood to step into leadership roles",
+    "gender_tendency": "mixed evidence, with social context playing a large role; small average differences favor men in self-promoted leadership in some cultures ."
+  },
+  {
+    "trait": "Negotiation Style",
+    "domain": "Behavioral",
+    "description": "Approach to bargaining",
+    "gender_tendency": "men often adopt more competitive bargaining strategies, women more collaborative strategies on average ."
+  },
+  {
+    "trait": "Financial Risk Behavior",
+    "domain": "Behavioral",
+    "description": "Investment and financial decision risks",
+    "gender_tendency": "men more risk-taking in investments, women more risk-averse on average ."
+  },
+  {
+    "trait": "Volunteering Behavior",
+    "domain": "Behavioral",
+    "description": "Participation in volunteer activities",
+    "gender_tendency": "women often volunteer more in caregiving or community roles, men more in skill-based or leadership volunteering on average ."
+  },
+  {
+    "trait": "Physical Activity Patterns",
+    "domain": "Behavioral",
+    "description": "Engagement in exercise",
+    "gender_tendency": "men more likely to engage in high-intensity sports, women more likely in group fitness or moderate exercise on average ."
+  },
+  {
+    "trait": "Time Use (Leisure vs. Work)",
+    "domain": "Behavioral",
+    "description": "Allocation of free time",
+    "gender_tendency": "women often allocate more time to social and family activities, men more to leisure or solo activities on average, though culture heavily influences ."
+  },
+  {
+    "trait": "Help-Seeking Behavior",
+    "domain": "Behavioral",
+    "description": "Likelihood to seek professional or social help when facing problems",
+    "gender_tendency": "women more likely to seek support, men less likely on average ."
+  },
+  {
+    "trait": "Environmental Risk Behavior",
+    "domain": "Behavioral",
+    "description": "Engagement in activities with environmental hazards (e.g., extreme sports)",
+    "gender_tendency": "men more likely to engage in high-hazard leisure activities on average ."
+  }
+]
